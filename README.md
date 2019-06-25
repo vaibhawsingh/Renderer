@@ -6,17 +6,17 @@ Renderer Using D2D
  2. Add OnDraw() function to the view which you wants to make screen color black
  3. You have to include Header file(optional) and D2D Library.
  <pre><code>
-  #include <d2d1.h>
-  #include <eh.h>
-  #pragma comment(lib, "d2d1")
+#include <d2d1.h>
+#include <eh.h>
+#pragma comment(lib, "d2d1")
   </code></pre>
   4. Create 2 varaibles in header file which you need while calling D2D function
   <pre><code>
-  ID2D1Factory			*m_pD2DFactory;
-  ID2D1HwndRenderTarget	*m_pRenderTargetHwn;
+ID2D1Factory			*m_pD2DFactory;
+ID2D1HwndRenderTarget		*m_pRenderTargetHwn;
   </code></pre>
   <pre><code>
-  void CRenderingView::OnDraw(CDC* pDC)
+void CRenderingView::OnDraw(CDC* pDC)
 {
 	// TODO: Add your specialized code here and/or call the base class
 	HRESULT hr = S_OK;
