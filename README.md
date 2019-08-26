@@ -49,3 +49,4 @@ void CRenderingView::OnDraw(CDC* pDC)
 	EndPaint(&ps);
 }
 </code></pre>
+https://careers.google.com/jobs/results/5449496593104896-software-engineer/?src=Online%2FJob%20Board%2Fstackoverflow&utm_campaign=2019&utm_medium=jobposting&utm_source=stackoverflow
